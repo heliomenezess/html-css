@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+<p>Esse vídeo está hosperado no meu próprio servidor</p>
+<video src="midia/meuvideo.mp4" width="200" controls></video>
+
+<video src="midia/meuvideo.ogv" width="200" controls></video>
+<video src="midia/meuvideo.webm"width="200" controls></video>
+
+<h1>Outro formato (o mais recomendado carregar todos para abrir em qualquer navegador</h1>
+<video width="200" controls>
+    <source src="midia/meuvideo.webm" type="video/webm">
+    <source src="midia/meuvideo.ogv"  type="video/ogv">
+    <source src="midia/meuvideo.mp4" type="video/mp4">
+</video>
+
+<h1>Teste do Helinho</h1>
+<video height="300" poster="imagens/fla.jpg" controls>
+    <source src="midia/meuvideo.mp4" type="video/mp4">
+    <source src="midia/meuvideo.ogv" type="video/ogv">
+    <source src="midia/meuvideo.webm" type="video/web">
+</video>
+<h2>Audio Maneira certa</h2>
+<audio controls autoplay>
+    <source src="midia/meuvideo.mp4" type="audio/mp4">
+    <source src="midia/meuvideo.ogv" type="audio/ogv">
+    <source src="midia/meuvideo.webm" type="audio/webm">
+</audio>
+<h1>Video HOPESDADO no SITE maneira certa</h1>
+<video height="300" poster="imagens/fla.jpg" controls loop>
+     <source src="midia/meuvideo.mp4" type="video/mp4">
+     <source src="midia/meuvideo.ogv" type="video/ogv">
+    <source src="midia/meuvideo.webm" type="video/webm">
+</video>
+
+<!--Só incorporar do youtube ou de outro lugar-->
+<h1>Inserindo Vídeos do Youtube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nr1UtLnhmM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h1>Videos Hospedados no site da maneira certa</h1>
+<video height="300" controls lopp>
+    <source src="midia/meuvideo.mp4" type="video/mp4">
+    <source src="midia/meuvideo.ogv" type="video/ogv">
+    <source src="midia/meuvideo.webm" type="video/webm">
+</video>
+<h1>Mais um teste ( VIDEOS HOSPEDADOS)</h1>
+<video height="300" poster="imagens/fla.jpg" controls loop>
+     <source src="midia/meuvideo.mp4" type="video/mp4">
+     <source src="midia/meuvideo.ogv" type="video/ogv">
+    <source src="midia/meuvideo.webm" type="video/webm">
+</video>
+<h1>Audio hospedado da maneira certa</h1>
+<audio controls autoplay>
+    <source src="midia/meuvideo.mp4" type="audio/mp4">
+    <source src="midia/meuvideo.ogv" type="audio/ogv">
+    <source src="midia/meuvideo.webm" type="audio/webm">
+</audio>
+
+
+
+</body>
+</html>

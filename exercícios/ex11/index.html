@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+<p>Tente abrir essas imagens em vários dispositivos diferentes ou simplesmete aumente e diminua o tamanho do seu navegador</p>
+<picture>
+    <source media="(max-width: 750px )" srcset="imagens/fotop.jpg">
+    <source media="(max-width: 1050px)" srcset="imagens/fotom.jpg">
+    <img src="imagens/fotog.jpg" alt="imagem flexível">
+</picture>
+
+<!--Testes-->
+
+<picture>
+    <source media="(max-width: 750px )" srcset="imagem/fotop.jpg">
+    <source media="(max-width: 1050px)" srcset="imagem/fotom.jpg">
+    <img src="imagens/fotog.jpg" alt="imagem flexivel">
+</picture>
+
+<h1>Reproduzindo Áudios</h1>
+<p>Vamos aprender a reproduzir áudio em HTML5</p>
+<audio src="midia/bucke.mp3" controls autoplay></audio>
+
+<h1>Outras Formas de reproduzir</h1>
+<!--Outra forma de reproduzir um áudio-->
+<audio" preload="auto" autoplay controls>
+<source src="midia/bucke.mp3" type="audio/mpeg">
+<source src="midia/bucke.ogg" type="audio/ogg">
+<source src="midia/bucke.wav" type="audio/wav">
+<p>Infelizmente seu navegador não tem suporte para carregar a mídia. <a href="midia/bucke.mp3" >Baixe o arquivo mp3</a>.</p>
+</audio>
+
+<audio src="midia/bucke.mp3" controls autoplay></audio>
+<audio src="midia/bucke.mp3" controls autoplay></audio>
+<audio src="midia/bucke.mp3" controls autoplay></audio>
+<audio src="midia/bucke.mp3" controls autoplay></audio>
+<audio src="midia/bucke.mp3" controls autoplay></audio>
+<audio src="midia/bucke.mp3" controls autoplay></audio>
+<audio src="midia/bucke.mp3" controls autoplay></audio>
+<audio src="midia/bucke.mp3" controls autoplay></audio>
+<audio src="midia/bucke.mp3" controls autoplay></audio>
+<audio src="midia/bucke.mp3" controls autoplay></audio>
+</body>
+</html>
